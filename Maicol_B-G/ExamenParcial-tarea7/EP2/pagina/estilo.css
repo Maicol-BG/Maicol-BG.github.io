@@ -1,0 +1,139 @@
+main{
+    width: auto;
+    height: auto;
+}
+#cabecera{
+    width: 100%;
+    height: 100px;
+    margin-left: -100px;
+    
+}
+#cabecera{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cabecera>ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+#cabecera a{
+    padding:10px;
+    text-decoration: none;
+    color:darkslategrey;
+    text-transform: uppercase;
+    
+}
+#cabecera a:hover{
+    background-color: dimgrey;
+    color:white;
+    cursor:pointer;
+}
+#brd{
+    display: flex;
+    margin-right: 50px;
+    
+}
+.separacion{
+    margin-left: 270px;
+}
+.bordeado1{
+    border: 1px solid black ;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-left: 20px;
+}
+.bordeado2{
+    border: 1px solid black;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(196, 185, 185);
+}
+#bord2{
+    color: white;
+}
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#contenido{
+    background-color: rgb(255, 255, 255);
+    height: 760px;
+    display: flex;
+}
+#contenido1{
+    box-sizing: content-box;
+    width: 350px;
+    height: 760px;
+    margin-left: 80px;
+    
+}
+#menu{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#pie{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+.icono span{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 20px;
+}
+hr{
+    width: 95%;
+}
+.boton{
+    padding: 5px 5px;
+    color: rgb(26, 26, 29);
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+}
+.boton:hover{
+    background-color: rgb(117, 131, 113);
+}
+.boton:active{
+    background-color: rgb(104, 97, 89);
+}
+.p1{
+    margin-left: 50px;
+}
+.tp{
+    font-size: 30px;
+    margin-left: 80px;
+    background-color: rgb(238, 237, 237);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration-line: underline;
+}
+#contenido2{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+}
+.im3{
+    width: 900px;
+    height: auto;
+}
