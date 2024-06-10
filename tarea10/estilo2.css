@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e7e6c7; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #B22222;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info,
+.contact-form,
+.contact-map {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.contact-info {
+    max-width: 300px;
+}
+
+.contact-info h2 {
+    color: #A52A2A;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    max-width: 300px;
+}
+
+.contact-form h2 {
+    color: #A52A2A;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 0;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-map {
+    max-width: 400px;
+}
+
+.contact-map iframe {
+    width: 500px;
+    height: 400px;
+    border: none;
+}
+footer {
+    background-color: #8a1c1c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .info, footer .links, footer .carga, footer .corporativos {
+    flex: 1;
+}
+
+footer .info p, footer .links p, footer .carga p, footer .corporativos p {
+    margin: 5px 0;
+}
+
+footer .links p a, footer .carga p a, footer .corporativos p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .multimedia {
+    flex: 1;
+}
+
+footer .multimedia video {
+    width: 100%;
+    height: auto;
+}
+
+.multimedia {
+    margin-top: 20px;
+}
